@@ -8,7 +8,6 @@ import websockets
 import json
 import os
 from threading import Thread, Semaphore
-from fake_useragent import UserAgent
 import tls_client
 
 CLIENT_TOKEN = "e1393935a959b4020a4491574f6490129f678acdaa92760471263db43487f823"
@@ -375,3 +374,4 @@ if __name__ == "__main__":
         print("Stopping...")
 
         sys.exit(0)
+
